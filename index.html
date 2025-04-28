@@ -22,44 +22,448 @@
 </head>
 <body>
   <!-- ============================ HEADER/NAVIGATION START ============================ -->
- 
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <div class="site_logo heading_xs">CoffeeNerd.</div>
+        <div class="menu_toggle">
+          <div id="menu_toggle_btn">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="nav_container" id="nav_container">
+        <div class="nav">
+          <div class="col flex">
+            <div class="nav_logo">CoffeeNerd.</div>
+            <div class="nav_socials">
+              <a href="#">instagram</a>
+              <a href="#">twitter</a>
+              <a href="#">behance</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="nav_link" id="homeLink">
+              <a href="#home">home</a>
+              <div class="nav_item_wrapper"></div>
+            </div>
+            <div class="nav_link" id="aboutLink">
+              <a href="#about">about</a>
+              <div class="nav_item_wrapper"></div>
+            </div>
+            <div class="nav_link" id="productsLink">
+              <a href="#products">products</a>
+              <div class="nav_item_wrapper"></div>
+            </div>
+            <div class="nav_link" id="blogLink">
+              <a href="#blog">blog</a>
+              <div class="nav_item_wrapper"></div>
+            </div>
+            <div class="nav_link" id="reviewLink">
+              <a href="#review">review</a>
+              <div class="nav_item_wrapper"></div>
+            </div>
+            <div class="nav_link" id="contactLink">
+              <a href="#contact">contact</a>
+              <div class="nav_item_wrapper"></div>
+            </div>
+          </div>
+        </div>
+        <div class="nav_footer">
+          <div class="links">
+            <a href="">privacy policy</a>
+            <a href="">privacy policy</a>
+            <a href="">privacy policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
   <!-- ============================ HEADER/NAVIGATION END ============================ -->
 
   <!-- ============================ MAIN START ============================ -->
     <main>
         <!-- ============================ HOME SECTION START ============================ -->
-
+        <section class="home banner" id="home">
+          <div class="home_container banner_column">
+            <div class="coffee_cup_container banner_image">
+              <img src="images/img_2.png" alt="" class="coffee_cup">
+              <div class="smoke_cont">
+                <div class="smoke"></div>
+                <div class="smoke"></div>
+                <div class="smoke"></div>
+              </div>
+            </div>
+            <div class="banner_inner">
+              <h1 class="heading_xl">Indulge in the Perfect Brew</h1>
+              <p class="paragraph">
+                Savor the rich aroma and bold flavors of our handcrafted coffee. Made from the finest beans, each cup delivers an unforgettable experience—whether you need a morning boost or a moment of pure relaxation.
+              </p>
+              <div class="button_wrapper primary">
+                <div class="animated_border"></div>
+                <div class="text">Our Products<i class="ri-arrow-right-line"></i></div>
+              </div>
+            </div>
+            <div class="banner_links">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-x-fill"></i></a>
+              <a href="#"><i class="ri-youtube-fill"></i></a>
+            </div>
+          </div>
+          <div class="overlay"></div>
+        </section>
         <!-- ============================ HOME SECTION END ============================ -->
 
         <!-- ============================ ABOUT SECTION START ============================ -->
-
+        <section class="about" id="about">
+          <div class="abt_container">
+            <div class="heading_xl title">about us</div>
+            <div class="img_contain"></div>
+            <div class="abt_content">
+              <div class="abt_story bg">
+                <div class="heading_md">Our Story - 
+                  <div class="heading_xs">The Passion Behind Our Coffee</div>
+                </div>
+                <div class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id officia sint eum quasi aspernatur repudiandae</div>
+              </div>
+              <div class="abt_story_right bg">
+                <div class="heading_md">Our Coffee - 
+                  <div class="heading_xs">Sourcing, Roasting & Brewing Excellence</div>
+                </div>
+                <div class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id officia sint eum quasi aspernatur repudiandae</div>
+              </div>
+            </div>
+          </div>
+        </section>
         <!-- ============================ ABOUT SECTION END ============================ -->
         
         <!-- ============================ PRODUCTS SECTION START ============================ -->
-
+        <section id="products" class="products">
+          <div class="heading_xl title">our coffee collection</div>
+          <div class="product_container centered">
+            <div class="circular_slider centered">
+              <h1 class="heading_md coffee_name active">Golden Sunrise</h1>
+              <ul class="wrapper centered">
+                <li class="slides" style="--img-no:1">
+                  <img src="images/prod_img (1).png" alt="">
+                </li>
+                <li class="slides" style="--img-no:2">
+                  <img class="active" src="images/prod_img (2).png" alt="">
+                </li>
+                <li class="slides" style="--img-no:3">
+                  <img src="images/prod_img (3).png" alt="">
+                </li>
+                <li class="slides" style="--img-no:4">
+                  <img src="images/prod_img (4).png" alt="">
+                </li>
+                <li class="slides" style="--img-no:5">
+                  <img src="images/prod_img (5).png" alt="">
+                </li>
+              </ul>
+              <div class="descriptions">
+                <div class="desc_item">
+                  <h1>Midnight Roast</h1>
+                  <p class="paragraph">A deep, bold dark roast crafted for
+                     those who love an intense, full-bodied coffee.
+                  </p>
+                  <div class="button_wrapper primary">
+                    <div class="animated_border"></div>
+                    <div class="text">Buy now<i class="ri-wallet-3-line"></i></div>
+                  </div>
+                </div>
+                <div class="desc_item active">
+                  <h1>Golden Sunrise</h1>
+                  <p class="paragraph">A smooth and balanced medium roast that 
+                    awakens the senses with every sip.
+                  </p>
+                  <div class="button_wrapper primary">
+                    <div class="animated_border"></div>
+                    <div class="text">Buy now<i class="ri-wallet-3-line"></i></div>
+                  </div>
+                </div>
+                <div class="desc_item">
+                  <h1>Velvet Arabica</h1>
+                  <p class="paragraph">A luxuriously smooth and aromatic blend
+                     made from 100% high-altitude Arabica beans.
+                  </p>
+                  <div class="button_wrapper primary">
+                    <div class="animated_border"></div>
+                    <div class="text">Buy now<i class="ri-wallet-3-line"></i></div>
+                  </div>
+                </div>
+                <div class="desc_item">
+                  <h1>Espresso Royale</h1>
+                  <p class="paragraph">A powerful and rich espresso blend designed for
+                     those who crave a strong caffeine kick.
+                  </p>
+                  <div class="button_wrapper primary">
+                    <div class="animated_border"></div>
+                    <div class="text">Buy now<i class="ri-wallet-3-line"></i></div>
+                  </div>
+                </div>
+                <div class="desc_item">
+                  <h1>Hazelnut Harmony</h1>
+                  <p class="paragraph">A perfectly balanced fusion of nutty,
+                     creamy goodness and premium coffee.
+                  </p>
+                  <div class="button_wrapper primary">
+                    <div class="animated_border"></div>
+                    <div class="text">Buy now<i class="ri-wallet-3-line"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <!-- ============================ PRODUCTS SECTION END ============================ -->
 
         <!-- ============================ BLOG SECTION START ============================ -->
-
+        <section id="blog">
+          <div class="heading_xl title">our coffee blogs</div>
+          <div class="card bg">
+            <div class="thumbnail bg">
+              <img src="images/blog1.jpg" alt="" class="left">
+            </div>
+            <div class="right">
+              <h1>5 Reasons Why Freshly Ground Coffee Tastes Better</h1>
+              <div class="author">
+                <img src="https://randomuser.me/api/portraits/men/95.jpg" alt="">
+                <h2>Julius MARTY</h2>
+              </div>
+              <div class="separator"></div>
+              <p class="paragraph">
+                Discover why freshly ground coffee beans make a world of difference in flavor, aroma, and overall coffee experience. Learn how grinding your own beans enhances every cup!
+              </p>
+            </div>
+            <div class="bottom">
+              <div class="date">
+                <h5>12</h5>
+                <h6 class="heading_xs">JANUARY</h6>
+              </div>
+              <ul>
+                <li><i class="ri-eye-line"></i></li>
+                <li><i class="ri-heart-2-line"></i></li>
+                <li><i class="ri-mail-line"></i></li>
+                <li><i class="ri-share-line"></i></li>
+              </ul>
+            </div>
+            <div class="blog_icon">
+              <i class="ri-arrow-down-line"></i>
+            </div>
+          </div>
+          <div class="card bg">
+            <div class="thumbnail bg">
+              <img src="images/blog2.jpg" alt="" class="left">
+            </div>
+            <div class="right">
+              <h1>How to Brew the Perfect Cup of Coffee at Home</h1>
+              <div class="author">
+                <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="">
+                <h2>Sarah MILLER</h2>
+              </div>
+              <div class="separator"></div>
+              <p class="paragraph">
+                Want barista-quality coffee without leaving home? Explore expert tips on choosing the right beans, mastering brew ratios, and perfecting your coffee-making routine.
+              </p>
+            </div>
+            <div class="bottom">
+              <div class="date">
+                <h5>20</h5>
+                <h6 class="heading_xs">FEBRUARY</h6>
+              </div>
+              <ul>
+                <li><i class="ri-eye-line"></i></li>
+                <li><i class="ri-heart-2-line"></i></li>
+                <li><i class="ri-mail-line"></i></li>
+                <li><i class="ri-share-line"></i></li>
+              </ul>
+            </div>
+            <div class="blog_icon">
+              <i class="ri-arrow-down-line"></i>
+            </div>
+          </div>
+          <div class="card bg">
+            <div class="thumbnail bg">
+              <img src="images/blog3.jpg" alt="" class="left">
+            </div>
+            <div class="right">
+              <h1>The Secret Behind a Perfect Latte Art</h1>
+              <div class="author">
+                <img src="https://randomuser.me/api/portraits/men/30.jpg" alt="">
+                <h2>James ANDERSON</h2>
+              </div>
+              <div class="separator"></div>
+              <p class="paragraph">
+                Ever wondered how baristas create beautiful latte art? Learn the techniques behind steaming milk, pouring patterns, and making your morning cup a masterpiece.
+              </p>
+            </div>
+            <div class="bottom">
+              <div class="date">
+                <h5>05</h5>
+                <h6 class="heading_xs">MARCH</h6>
+              </div>
+              <ul>
+                <li><i class="ri-eye-line"></i></li>
+                <li><i class="ri-heart-2-line"></i></li>
+                <li><i class="ri-mail-line"></i></li>
+                <li><i class="ri-share-line"></i></li>
+              </ul>
+            </div>
+            <div class="blog_icon">
+              <i class="ri-arrow-down-line"></i>
+            </div>
+          </div>
+        </section>
         <!-- ============================ BLOG SECTION END ============================ -->
 
         <!-- ============================ REVIEW SECTION START ============================ -->
+        <section class="review_section" id="review">
+          <div class="heading_xl title">customer's review</div>
+          <h2 class="heading_lg">what they say</h2>
 
+          <div class="review_container">
+
+            <div class="review_card bg">
+              <i class="ri-double-quotes-l qoute_icon"></i>
+              <h4>Perfect Morning Brew</h4>
+              <p class="paragraph">
+                The coffee is rich, smooth, and absolutely delicious. It’s the perfect start to my day! I love the aroma and the quality of the beans.
+              </p>
+              <img src="images/user1.png" alt="">
+              <h5>Allan Collins</h5>
+              <h6>Coffee Enthusiast</h6>
+            </div>
+
+            <div class="review_card bg">
+              <i class="ri-double-quotes-l qoute_icon"></i>
+              <h4>Best Coffee Experience</h4>
+              <p class="paragraph">
+                The flavors are unmatched! Every cup feels like a premium café experience at home. Freshly roasted, bold, and simply irresistible!
+              </p>
+              <img src="images/user2.png" alt="">
+              <h5>Tanya Grant</h5>
+              <h6>Café Owner</h6>
+            </div>
+
+            <div class="review_card bg">
+              <i class="ri-double-quotes-l qoute_icon"></i>
+              <h4>Aromatic & Smooth</h4>
+              <p class="paragraph">
+                The rich aroma and smooth taste make this my go-to coffee every morning. Excellent quality and fast delivery. Highly recommended!
+              </p>
+              <img src="images/user3.png" alt="">
+              <h5>Clay Washington</h5>
+              <h6>Barista</h6>
+            </div>
+          </div>
+        </section>
         <!-- ============================ REVIEW SECTION END ============================ -->
 
         <!-- ============================ CONTACT SECTION START ============================ -->
-              
+       <section id="contact">
+        <div class="heading_lg">contact us</div>
+        <div class="contact_top">
+          <div class="contact_conts phone">
+            <i class="ri-smartphone-line"></i>
+            <p class="heading_xs">phone no.</p>
+            <h5 class="paragraph">1-1234567890</h5>
+          </div>
+          <div class="contact_conts address">
+            <i class="ri-map-pin-2-line"></i>
+            <p class="heading_xs">address</p>
+            <h5 class="paragraph">abc city, xyz country</h5>
+          </div>
+          <div class="contact_conts email">
+            <i class="ri-mail-line"></i>
+            <p class="heading_xs">email</p>
+            <h5 class="paragraph">abc@gmail.com</h5>
+          </div>
+          <div class="contact_conts open">
+            <i class="ri-time-line"></i>
+            <p class="heading_xs">opening hours</p>
+            <h5 class="paragraph">monday - friday (9:00AM to 5:00PM)</h5>
+          </div>
+        </div>
+        <div class="separator"></div>
+        <div class="contact_container">
+          <form action="#" class="contact_form">
+            <div class="heading_md">say something fun!</div>
+            <div class="input_group">
+              <input type="text" class="form_control" placeholder="first name">
+              <input type="text" class="form_control" placeholder="last name">
+            </div>
+            <div class="input_group">
+              <input type="email" class="form_control" placeholder="email">
+              <input type="text" class="form_control" placeholder="phone">
+            </div>
+            <textarea rows="5" placeholder="message" class="form_control"></textarea>
+            <div class="button_wrapper secondary">
+              <div class="animated_border"></div>
+              <button type="submit" class="text">submit</button>
+            </div>
+          </form>
+          <div class="contact_img"><img src="images/contact_img.png" alt=""></div>
+        </div>
+        <div class="overlay"></div>
+       </section>
         <!-- ============================ CONTACT SECTION END ============================ -->
 
     </main>
   <!-- ============================ MAIN END ============================ -->
 
   <!-- ============================ FOOTER START ============================ -->
-
+    <footer>
+      <div class="newsletter">
+        <i class="ri-mail-line"></i>
+        <input type="email" placeholder="your email address">
+        <div class="button_wrapper secondary">
+          <div class="animated_border"></div>
+          <button type="submit" class="text">submit</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3 class="logo">CoffeeNerd. <div class="underline"><div></div></div></h3>
+          <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero necessitatibus molestias, impedit ea consectetur itaque animi tempore quia repellendus voluptatum.</p>
+        </div>
+        <div class="col">
+          <h3>office <div class="underline"><div></div></div></h3>
+          <p class="paragraph">abc road</p>
+          <p class="paragraph">xyz, country</p>
+          <p class="paragraph">blablabla</p>
+          <p class="paragraph email_id">abc@gmail.com</p>
+          <h4>+123456788900</h4>
+        </div>
+        <div class="col">
+          <h3>links <div class="underline"><div></div></div></h3>
+          <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#products">products</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#review">review</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>socials <div class="underline"><div></div></div></h3> 
+          <ul>
+            <li>facebook</li>
+            <li>twitter</li>
+            <li>instagram</li>
+            <li>whatsapp</li>
+          </ul> 
+        </div>
+      </div>
+      <hr>
+      <p class="paragraph copyright">NerdyCodeCrafter @ 2025 - All Rights Reserved</p>
+    </footer>
   <!-- ============================ FOOTER END ============================ -->
 
   <!-- ============================ SCROLL TO TOP ============================ -->
-  
+    <button id="scrollTopBtn">
+      <i class="ri-arrow-up-line"></i>
+    </button>
   <!-- ============================ SCROLL TO TOP ============================ -->
 
   <!-- ============================ MAIN JAVASCRIPT FILE ============================ -->
